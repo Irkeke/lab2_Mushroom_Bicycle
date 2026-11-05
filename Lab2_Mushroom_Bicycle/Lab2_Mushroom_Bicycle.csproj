@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!-- .NET Framework 4.8 is already built into Windows 10/11, so nothing extra is needed to run the .exe -->
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>Lab2_Mushroom_Bicycle</RootNamespace>
+    <AssemblyName>Lab2_Mushroom_Bicycle</AssemblyName>
+  </PropertyGroup>
+
+</Project>
